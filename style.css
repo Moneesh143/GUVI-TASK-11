@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: row !important;
+  gap: 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url("https://countries-of-the-world.cyclic.app/world-g37775118d_640.png");
+  height: 100%;
+  background-size: cover;
+  width: 100%;
+}
+
+#title {
+  width: auto;
+  color: rgb(45, 42, 42);
+  text-shadow: 2px 4px 4px rgba(39, 40, 41, 0.6);
+  text-align: center;
+  font-family:Arial,Helvetica,
+}
+h3 {
+  color: rgb(4, 4, 4);
+  text-align: center;
+  text-shadow: 2px 4px 4px rgba(31, 32, 34, 0.6);
+}
+.card {
+  margin-top: 40px;
+  width:400px;
+  height: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border: 10px solid rgb(15, 14, 14) !important;
+  text-align: center;
+  background-color: rgb(123, 127, 129) !important;
+  bottom: 10px;
+  box-shadow: -webkit-box-shadow: -9px 1px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -9px 1px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -9px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.card-header h6 {
+  width: auto;
+  color: rgb(3, 3, 3);
+}
+
+.card-body {
+  color: rgb(68, 77, 77);
+}
+.card-img-top {
+  width: auto;
+  height: 200px;
+  margin: auto;
+  border: 2px solid rgb(7, 7, 7);
+}
+#toggle {
+  color: rgb(244, 239, 239);
+  background-color: rgb(33, 81, 211);
+}
